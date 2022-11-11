@@ -1,0 +1,18 @@
+{
+    "name": "kmadura/wigle2mtscan",
+    "description": "wigle csv to mtscan file format converter",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Krzysztof Madura"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
