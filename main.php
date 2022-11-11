@@ -150,7 +150,7 @@ const WIGLE_LON = 7;
 const WIGLE_TYPE = 10;
 
 while ($data = fgetcsv($f)) {
-    if (sizeof($data) < 10) {
+    if (!isset($data[WIGLE_TYPE])) {
         $statistics->ignoredBad++;
         continue;
     }
